@@ -52,8 +52,6 @@ const routes: Routes = [
 
 
 
-
-
   {
     path: 'tabs',
     component: TabsPage,
@@ -116,9 +114,28 @@ const routes: Routes = [
       },
     ],
   },
+
+
+
   {
     path: 'layout-grid',
     loadChildren: () => import('./layout-grid/layout-grid.module').then( m => m.LayoutGridPageModule)
+  },
+  {
+    path: 'layout-css-utilities',
+    loadChildren: () => import('./layout-css-utilities/layout-css-utilities.module').then( m => m.LayoutCssUtilitiesPageModule)
+  },
+  {
+    path: 'componentes',
+    loadChildren: () => import('./componentes/componentes.module').then( m => m.ComponentesPageModule)
+  },
+  {
+    path: 'component-action-sheet',
+    loadChildren: () => import('./component-action-sheet/component-action-sheet.module').then( m => m.ComponentActionSheetPageModule)
+  },
+  {
+    path: 'component-alert',
+    loadChildren: () => import('./component-alert/component-alert.module').then( m => m.ComponentAlertPageModule)
   }
 
 

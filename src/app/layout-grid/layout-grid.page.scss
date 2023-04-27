@@ -1,0 +1,24 @@
+
+  ion-grid {
+    --ion-grid-columns: 13;
+  }
+
+
+  ion-col {
+      margin: 1.5px;
+      background: red;
+      text-align: center;
+    }
+
+    .align-items-start {
+      align-items: start;
+    }
+
+    .align-items-center {
+      align-items: center;
+    }
+
+    .align-items-end {
+      align-items: end;
+    }
+

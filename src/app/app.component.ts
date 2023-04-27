@@ -9,6 +9,7 @@ export class AppComponent {
     { title: 'Home', url: '/folder', icon: 'home' },
     { title: 'Instalação', url: '/instalacao', icon: 'arrow-down-circle' },
     { title: 'Layout', url: '/layout', icon: 'albums' },
+    { title: 'Componentes', url: '/componentes', icon: 'build' },
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
